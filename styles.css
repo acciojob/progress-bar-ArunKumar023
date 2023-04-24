@@ -1,1 +1,31 @@
 /*  your css code here. If applicable */
+.progress-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.active {
+  background-color: black;
+}
+
+button {
+  margin: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
